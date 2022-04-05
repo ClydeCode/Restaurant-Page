@@ -78,10 +78,6 @@ body {
     cursor: pointer;
 }
 
-#active {
-    background-color: rgba(116, 82, 50, .1);
-}
-
 .content .main .navigation button:hover {
     background-color:rgba(116, 82, 50, .4);
 }
