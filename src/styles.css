@@ -3,6 +3,7 @@ body {
     padding: 0;
     background-color: rgb(73, 61, 46);
     /* overflow: hidden; */
+    background-image: url(assets/pizza.jpg);
 }
 
 .content {
@@ -79,5 +80,5 @@ body {
 }
 
 .content .main .navigation button:hover {
-    background-color:rgba(116, 82, 50, .4);
+    background-color:rgba(116, 82, 50, .6);
 }
