@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(73, 61, 46);
+    /* overflow: hidden; */
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+}
+
+.content .header {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(94, 74, 55);
+    height: 130px;
+    width: 100%;
+}
+
+.content .header .header-title {
+    align-self: center;
+    color: white;
+    font-size: 4rem;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 6px;
+}
+
+.content .main {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    height: 100vh;
+    position: relative;
+}
+
+.content .main .menu {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+    margin-bottom: 200px;
+    height: 100vh;
+    width: 950px;
+    background-color: black;
+    opacity: 0.3;
+    border-radius: 10px;
+    /* overflow: scroll; */
+    margin-top: 30px;
+}
+
+.content .main .menu .container {
+    background-color: blanchedalmond;
+    height: 260px;
+    width: 245px;
+    border-radius: 4px;
+    margin: 30px;
+}
+
+.content .main .navigation {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    position: absolute;
+    top: 250px;
+    right: -400px;
+}
+
+.content .main .navigation button {
+    height: 50px;
+    width: 350px;
+    border: 3px solid black;
+    background-color:rgb(116, 82, 50);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 15px;
+    font-size: 1.3rem;
+    color:white;
+    cursor: pointer;
+}
+
+.content .main .navigation button:hover {
+    background-color:rgba(116, 82, 50, .4);
+}
