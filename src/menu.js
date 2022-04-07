@@ -9,6 +9,7 @@ import icon8 from './assets/8.png'
 import icon9 from './assets/9.png'
 
 export default function initMenu () {
+    document.body.style.overflow = 'scroll';
     const main = document.querySelector('.main');
     
     const menu = document.createElement('div');

@@ -1,4 +1,5 @@
 export default function initHome () {
+    document.body.style.overflow = 'hidden';
     const main = document.querySelector('.main');
 
     const container = document.createElement('div');
