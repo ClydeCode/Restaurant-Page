@@ -1,3 +1,8 @@
+@font-face {
+    font-family: Italiano;
+    src: url(./fonts/Italiano.otf);
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -14,7 +19,7 @@ body {
 .content .header {
     display: flex;
     justify-content: center;
-    background-color: rgb(94, 74, 55);
+    background-color: rgb(53, 33, 20);
     height: 130px;
     width: 100%;
 }
@@ -23,8 +28,16 @@ body {
     align-self: center;
     color: white;
     font-size: 4rem;
-    font-family: 'Times New Roman', Times, serif;
-    letter-spacing: 6px;
+    font-family: 'Italiano';
+    letter-spacing: 9px;
+}
+
+.content .header .header-title #first {
+    color:rgb(54, 189, 13);
+}
+
+.content .header .header-title #second {
+    color:rgb(212, 14, 14);
 }
 
 .content .main {
