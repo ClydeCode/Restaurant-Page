@@ -4,6 +4,7 @@ import initMenu from './menu'
 import initHome from './home'
 
 initNav();
+initHome();
 
 const buttons = document.querySelectorAll('button');
 
