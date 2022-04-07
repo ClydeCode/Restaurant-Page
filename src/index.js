@@ -10,6 +10,7 @@ const buttons = document.querySelectorAll('button');
 
 buttons.forEach(button => button.addEventListener('click', () => {
     removeChilds('.main');
+    window.scrollTo(0, 0);
     switch(button.id) {
         case 'home':
             initHome();
