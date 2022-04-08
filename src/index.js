@@ -2,6 +2,7 @@ import './styles.css'
 import initNav from './navigation';
 import initMenu from './menu'
 import initHome from './home'
+import initContact from './contact'
 
 initNav();
 initHome();
@@ -17,6 +18,9 @@ buttons.forEach(button => button.addEventListener('click', () => {
             break;
         case 'menu':
             initMenu();
+            break;
+        case 'contact':
+            initContact();
             break;
     };
 }));
