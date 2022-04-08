@@ -69,6 +69,13 @@ body {
     top: 100px;
 }
 
+.content .container-news img {
+    height: 175px;
+    width: 175px;
+    align-self: center;
+    margin-top: 15px;
+}
+
 .content .container-news .container-title {
     align-self: center;
     color: white;

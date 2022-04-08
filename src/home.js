@@ -1,3 +1,5 @@
+import icon from './assets/5.png'
+
 export default function initHome () {
     document.body.style.overflow = 'hidden';
     const main = document.querySelector('.main');
@@ -13,9 +15,13 @@ export default function initHome () {
     container_text.className = 'container-text';
     container_text.innerHTML = 'We came up with a new recipe!';
 
+    const image = new Image();
+    image.src = icon;
+
     main.appendChild(container);
     container.appendChild(container_title);
     container.appendChild(container_text);
+    container.appendChild(image);
 
     const stripes = document.createElement('div');
     stripes.className = 'stripes';
