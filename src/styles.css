@@ -13,6 +13,11 @@
     src: url(./fonts/FiraSans-Light.ttf);
 }
 
+@font-face {
+    font-family: opensans;
+    src: url(./fonts/OpenSans.ttf);
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -87,7 +92,7 @@ body {
 .content .container-news .container-text {
     align-self: center;
     color: white;
-    font-family:'firesans-medium';
+    font-family:'opensans';
     font-size: 1.15rem;
     margin-top: 10px;
 }
